@@ -51,7 +51,6 @@ async def start_rizoel():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel=""))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -74,7 +73,6 @@ async def start_rizoel():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel=""))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -98,7 +96,6 @@ async def start_rizoel():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel=""))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -122,7 +119,6 @@ async def start_rizoel():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel=""))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -146,7 +142,6 @@ async def start_rizoel():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel=""))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -181,28 +176,6 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))        
-async def _(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
-    if e.sender_id in SMEX_USERS:
-        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
-        if len(e.text) > 5:
-            bio = str(rizoel[0])
-            text = "Changing Bio"
-            event = await e.reply(text, parse_mode=None, link_preview=None )
-            try:
-                await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio")
-            except Exception as e:
-                await event.edit(str(e))   
-        else:
-            await e.reply(usage, parse_mode=None, link_preview=None )
-            
         
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.bleave"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.bleave"))
