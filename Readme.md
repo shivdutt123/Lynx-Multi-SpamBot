@@ -8,7 +8,6 @@
 [![telegram badge](https://img.shields.io/badge/RiZoeL-30302f?style=for-the-badge&logo=telegram)](https://t.me/TheRiZoeL)
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMrRizoel%2FBotSpam)
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrRizoel/BotSpam.git) 
 
 
