@@ -10,4 +10,8 @@
 ## 🚀 Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrRizoel/BotSpam.git) 
 
+### String Session ON ROBOT
 
+No Requirement of API ID and API HASH
+
+   - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/BotSpam)](https://replit.com/@RiZoeL/BOT-SPAM)
