@@ -9,7 +9,11 @@
 
 ## 🚀 Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrRizoel/BotSpam.git) 
-
+# HOW GET STRING !! 
+```sh
+- GO AND MAKE A BOT FROM BOTFATHER
+- THEN /start TO THAT BOT !!
+```
 ### String Session ON ROBOT
 
 No Requirement of API ID and API HASH
