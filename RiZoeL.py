@@ -514,18 +514,27 @@ async def restart(e):
         quit()
 
         
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
+async def alive(e):
+    if e.sender_id in SMEX_USERS:
+        text = " ♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n 𝐑ɪ𝐙ᴏᴇ𝐋 𝐒ᴘᴀᴍ ɪs 𝐀ʟɪᴠᴇ !!\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : @DNHxHELL\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : 𝗥𝗶𝗭𝗼𝗲𝗟\n ┗━━━━━━━━━━━━━━━━━━━\n "
+        await e.reply(text, parse_mode=None, link_preview=None )
         
         
         
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.bothelp"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bothelp"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bothelp"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bothelp"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bothelp"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bot\n.reboot\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.bleave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bspam\n.dspam\n.bigbspam\n.fuk\n.replyfuk\n.dreplyfuk\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.robot\n.bot\n.reboot\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.bleave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bspam\n.dspam\n.bigbspam\n.fuk\n.replyfuk\n.dreplyfuk\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -542,7 +551,7 @@ text = """
 
 print(text)
 print("")
-print("SMEX! Rɪᴢᴏᴇʟ ʙᴏᴛ sᴘᴀᴍ Started Sucessfully.")
+print("SMEX! Rɪᴢᴏᴇʟ ʙᴏᴛ sᴘᴀᴍ Started Sucessfully. TRY .robot To check")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
