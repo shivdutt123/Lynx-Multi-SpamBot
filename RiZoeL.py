@@ -6,7 +6,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import ALIVE_NAME, ALIVE_PIC, OWNER_USERNAME, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5
+from Config import ALIVE_PIC, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -524,23 +524,23 @@ async def alive(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ {ALIVE_NAME} ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \nᴍᴀsᴛᴇʀ : @{OWNER_USERNAME}\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
+                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʀɪᴢᴏᴇʟʟ sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
                               )
      await ydk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ {ALIVE_NAME} ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \nᴍᴀsᴛᴇʀ : @{OWNER_USERNAME}\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
+                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʀɪᴢᴏᴇʟʟ sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
                               )
      await wdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ {ALIVE_NAME} ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \nᴍᴀsᴛᴇʀ : @{OWNER_USERNAME}\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
+                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʀɪᴢᴏᴇʟʟ sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
                               )
      await hdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ {ALIVE_NAME} ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \nᴍᴀsᴛᴇʀ : @{OWNER_USERNAME}\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
+                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʀɪᴢᴏᴇʟʟ sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
                               )
      await sdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ {ALIVE_NAME} ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \nᴍᴀsᴛᴇʀ : @{OWNER_USERNAME}\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
+                                  caption="♡︎ 𝐑ɪ𝐙ᴏᴇ𝐋 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʀɪᴢᴏᴇʟʟ sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/DNHxHELL)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/TheRiZoeL)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLBotSpam) 🖤"                                
                               )        
         
         
