@@ -3,9 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-ALIVE_NAME = getenv("ALIVE_NAME", "𝐑𝐢𝐙𝐨𝐞𝐋 𝐒𝐩𝐚𝐌 𝐈𝐙𝐙 𝐀𝐋𝐈𝐕𝐄 ☻︎☻︎")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/0c113b325fe639b09a2d5.jpg")
-OWNER_USERNAME = getenv("OWNER_USERNAME")
 STRING = getenv("STRING")
 STRING2 = getenv("STRING2")
 STRING3 = getenv("STRING3")
