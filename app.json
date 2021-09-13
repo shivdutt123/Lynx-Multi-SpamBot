@@ -13,21 +13,11 @@
         "value": "",
         "required": false
       },
-      "ALIVE_NAME": {
-        "description": "FILL ALIVE NAME HERE !",
-        "value": "",
-        "required": false
-      },
       "ALIVE_PIC": {
         "description": "YOUR ALIVE PIC'S TELEGRAPH LINK !!",
         "value": "",
         "required": false
       },
-      "OWNER_USERNAME": {
-        "description": "USERNAME OF YOUR ID WITHOUT @",
-        "value": "",
-        "required": true
-      }, 
       "API_ID": {
         "description": "API ID",
         "value": "",
