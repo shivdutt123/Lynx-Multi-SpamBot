@@ -13,11 +13,6 @@
         "value": "",
         "required": false
       },
-      "ALIVE_PIC": {
-        "description": "YOUR ALIVE PIC'S TELEGRAPH LINK !!",
-        "value": "",
-        "required": false
-      },
       "API_ID": {
         "description": "API ID",
         "value": "",
