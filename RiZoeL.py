@@ -6,7 +6,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import ALIVE_PIC, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5
+from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -176,6 +176,7 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
+RIZ_PIC = "https://telegra.ph/file/0c113b325fe639b09a2d5.jpg"
         
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.bleave"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.bleave"))
@@ -513,8 +514,7 @@ async def restart(e):
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
 
-
-RIZ_PIC = ALIVE_PIC        
+       
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
