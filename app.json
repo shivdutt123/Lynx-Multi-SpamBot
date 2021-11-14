@@ -1,7 +1,7 @@
 {
-  "name": "RIZOEL SPAM BOT",
+  "name": "Lynx Multi Spam Bot",
   "description": "A Powerful Telegram Spam Userbot.",
-  "logo": "https://telegra.ph/file/98f3e01fcb05d98373cfc.jpg",
+  "logo": "https://te.legra.ph/file/b32b48efce9dcfe73938a.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -45,7 +45,7 @@
       },
       "SUDO": {
         "description": "Sudo Users Id",
-        "value": "1517994352",
+        "value": "2046972788",
         "required": true
       }
   },
