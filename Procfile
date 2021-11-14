@@ -1,1 +1,1 @@
-worker: python3 RiZoeL.py
+worker: python3 Lynx.py
