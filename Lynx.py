@@ -323,13 +323,13 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.fuk"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.fuk"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.fuk"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.fuk"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.fuk"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗙𝘂𝗸 \n\nCommand:\n\n.fuk <count> <Username of User>\n\n.fuk <count> <reply to a User>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝐑𝐚𝐢𝐝 \n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -389,14 +389,14 @@ async def _(event):
         )           
             
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.replyfuk"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.replyfuk"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.replyfuk"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.replyfuk"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.replyfuk"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆𝗙𝘂𝗸\n\nCommand:\n\n.replyfuk <Username of User>\n\n.replyfuk <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝n\nCommand:\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -426,14 +426,14 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyfuk"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyfuk"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyfuk"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyfuk"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyfuk"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗙𝘂𝗸\n\nCommand:\n\n.dreplyfuk <Username of User>\n\n.dreplyfuk <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n\nCommand:\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -466,15 +466,15 @@ async def _(e):
     
        
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "RuKo Jara Sabar Karo..!!"
+        text = "Lynx SpamBot..!!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -515,44 +515,44 @@ async def restart(e):
         quit()
 
        
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.robot"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.lynx"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.lynx"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.lynx"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.lynx"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.lynx"))
 async def alive(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐋𝐘𝐍𝐗 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʟʏɴx sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await ydk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐋𝐘𝐍𝐗 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʟʏɴx sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await wdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐋𝐘𝐍𝐗 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʟʏɴx sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await hdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐋𝐘𝐍𝐗 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʟʏɴx sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await sdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ 𝐋𝐘𝐍𝐗 𝐁ᴏ𝐓 𝐒ᴘᴀ𝐌 ♡︎\n\n\n ✧ ʟʏɴx sᴘᴀᴍ ɪᴢᴢ ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )        
         
         
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bhelp"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.robot\n.bot\n.reboot\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.bleave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bspam\n.dspam\n.bigbspam\n.fuk\n.replyfuk\n.dreplyfuk\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.lynx\n.ping\n.reboot\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.bleave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bspam\n.dspam\n.bigbspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -569,7 +569,7 @@ text = """
 
 print(text)
 print("")
-print("SMEX! ʟʏɴx ʙᴏᴛ sᴘᴀᴍ Started Sucessfully. TRY .robot To check")
+print("SMEX! ʟʏɴx ʙᴏᴛ sᴘᴀᴍ Started Sucessfully. TRY .ping or .lynx To check")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
