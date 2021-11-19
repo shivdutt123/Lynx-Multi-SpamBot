@@ -524,23 +524,23 @@ async def alive(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐌𝐫. 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await ydk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐌𝐫. 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await wdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ ░░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐌𝐫. 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await hdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐌𝐫. 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )
      await sdk.send_file(event.chat_id,
                                   RIZ_PIC,
-                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝗶𝗭𝗼𝗲𝗟](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
+                                  caption="♡︎ ░▒▓█ LYNX SPAMBOT █▓▒░ ♡︎\n\n\n ✧ 𝐋𝐲𝐧𝐱 𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐢𝐬 𝐚𝐥𝐢𝐯𝐞 ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/LynxBot_Chat)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐌𝐫. 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫](https://t.me/mr_developer_xd)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/Itz-UNKOWN-xd/Lynx-Multi-SpamBot) 🖤"                                
                               )        
         
         
